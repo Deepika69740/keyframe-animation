@@ -1,0 +1,48 @@
+.a{
+    margin-top: 0px;
+    animation-name: rotatex;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    translate: 0px 0px;
+    margin-left: 100px;
+
+}
+@keyframes rotatex{
+    33.33%{
+        transform: rotate(120deg);
+
+    }
+    66.66%{
+        transform: rotate(250deg);
+        translate: 900px 0px;
+
+
+    }
+    100%{
+       transform: rotate(380deg);
+
+    }
+}
+
+.b{
+    margin-top:100px;
+    animation-name: rotateimg;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes rotateimg{
+    33.33%{
+        transform: rotate(125deg);
+    }
+    66.66%{
+        transform: rotate(255deg);
+        translate:0px 470px;
+
+    }
+    100%{
+       transform: rotate(385deg);
+    }
+}
+
